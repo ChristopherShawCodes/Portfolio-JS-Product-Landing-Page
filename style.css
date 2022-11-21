@@ -136,7 +136,7 @@ h1{
 
 @media all and (max-width: 800px) and (min-width: 501px){
     h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
         top: 30%;
     }
     .btn{
@@ -146,6 +146,9 @@ h1{
 }
 
 @media (max-width: 500px) and (min-width: 200px){
+    h1{
+        font-size: 2rem;
+    }
     h2{
         display: none;
     }
@@ -155,7 +158,13 @@ h1{
     .icon{
         display: none;
     }
-
+    .shop{
+        margin-right: 10%;
+    }
+    .btn{
+        padding: 0.5rem;
+        width: 10rem;
+    }
 }
 
 
